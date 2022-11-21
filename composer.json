@@ -1,0 +1,14 @@
+{
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/sewlos/merce-rest-client.git"
+  }],
+  "require": {
+    "merce/rest-client": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Merce\\Consumer\\RestClient\\": "app/"
+    }
+  }
+}
